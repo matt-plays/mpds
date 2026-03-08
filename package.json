@@ -1,0 +1,34 @@
+{
+  "name": "@mattplays/mpds",
+  "version": "0.1.0",
+  "description": "Matt's Personal Design System — design tokens and iconography as CSS custom properties",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.css",
+  "exports": {
+    ".": "./dist/index.css",
+    "./css/*": "./dist/css/*",
+    "./icons": {
+      "types": "./dist/icons/react/index.d.ts",
+      "import": "./dist/icons/react/index.js"
+    },
+    "./icons/svg/*": "./dist/icons/svg/*"
+  },
+  "scripts": {
+    "build": "npm run build:tokens && npm run build:icons",
+    "build:tokens": "tsx scripts/build-tokens.ts",
+    "build:icons": "tsx scripts/build-icons.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "svgo": "^3.3.0",
+    "@svgr/core": "^8.1.0",
+    "@svgr/plugin-jsx": "^8.1.0"
+  }
+}
