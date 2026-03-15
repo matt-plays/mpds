@@ -7,11 +7,20 @@ const OUTPUT_PATH = resolve(ROOT, 'dist/css/mpds-colors.css');
 
 interface ColorValue {
   hex: string;
+  alpha: number;
 }
 
 interface ColorToken {
   $type: 'color';
   $value: ColorValue;
+}
+
+function hexToRgba(hex: string, alpha: number): string {
+  const h = hex.replace('#', '');
+  const r = parseInt(h.substring(0, 2), 16);
+  const g = parseInt(h.substring(2, 4), 16);
+  const b = parseInt(h.substring(4, 6), 16);
+  return `rgba(${r}, ${g}, ${b}, ${alpha})`;
 }
 
 type TokenGroup = Record<string, ColorToken>;
@@ -35,7 +44,8 @@ export function buildColors(): void {
       if (tokenName.startsWith('$')) continue;
       if (token.$type !== 'color') continue;
 
-      const hex = token.$value.hex;
+      const { hex, alpha } = token.$value;
+      const value = alpha < 1 ? hexToRgba(hex, alpha) : hex;
       let propName: string;
 
       if (FLAT_GROUPS.includes(groupName)) {
@@ -47,7 +57,7 @@ export function buildColors(): void {
         propName = `--mpds-color-${slugify(tokenName)}`;
       }
 
-      lines.push(`  ${propName}: ${hex};`);
+      lines.push(`  ${propName}: ${value};`);
     }
 
     // Blank line between groups

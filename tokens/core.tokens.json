@@ -1,6 +1,6 @@
 {
   "Clay": {
-    "Clay 0": {
+    "Clay 100": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -20,7 +20,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Clay 25": {
+    "Clay 200": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -40,7 +40,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Clay 50": {
+    "Clay 300": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -60,7 +60,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Clay 100": {
+    "Clay 400": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -80,7 +80,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Clay 200": {
+    "Clay 500": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -100,7 +100,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Clay 300": {
+    "Clay 600": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -120,7 +120,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Clay 350": {
+    "Clay 700": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -140,7 +140,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Clay 400": {
+    "Clay 800": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -160,7 +160,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Clay 500": {
+    "Clay 900": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -180,7 +180,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Clay 600": {
+    "Clay 1000": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -200,7 +200,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Clay 700": {
+    "Clay 1100": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -220,7 +220,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Clay 800": {
+    "Clay 1200": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -242,7 +242,7 @@
     }
   },
   "Slate": {
-    "Slate 0": {
+    "Slate 100": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -262,7 +262,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Slate 25": {
+    "Slate 200": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -282,7 +282,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Slate 50": {
+    "Slate 300": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -302,7 +302,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Slate 100": {
+    "Slate 400": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -322,7 +322,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Slate 200": {
+    "Slate 500": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -342,7 +342,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Slate 300": {
+    "Slate 600": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -362,7 +362,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Slate 350": {
+    "Slate 700": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -382,7 +382,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Slate 400": {
+    "Slate 800": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -402,7 +402,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Slate 500": {
+    "Slate 900": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -422,7 +422,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Slate 600": {
+    "Slate 1000": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -442,7 +442,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Slate 700": {
+    "Slate 1100": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -462,7 +462,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Slate 800": {
+    "Slate 1200": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -480,6 +480,322 @@
           "ALL_SCOPES"
         ],
         "com.figma.isOverride": true
+      }
+    }
+  },
+  "Slate Alpha": {
+    "Slate Alpha 100": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.04313725605607033,
+          0.0470588244497776,
+          0.05098039284348488
+        ],
+        "alpha": 0.04,
+        "hex": "#0B0C0D"
+      }
+    },
+    "Slate Alpha 200": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.04313725605607033,
+          0.0470588244497776,
+          0.05098039284348488
+        ],
+        "alpha": 0.08,
+        "hex": "#0B0C0D"
+      }
+    },
+    "Slate Alpha 300": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.04313725605607033,
+          0.0470588244497776,
+          0.05098039284348488
+        ],
+        "alpha": 0.12,
+        "hex": "#0B0C0D"
+      }
+    },
+    "Slate Alpha 400": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.04313725605607033,
+          0.0470588244497776,
+          0.05098039284348488
+        ],
+        "alpha": 0.16,
+        "hex": "#0B0C0D"
+      }
+    },
+    "Slate Alpha 500": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.04313725605607033,
+          0.0470588244497776,
+          0.05098039284348488
+        ],
+        "alpha": 0.24,
+        "hex": "#0B0C0D"
+      }
+    },
+    "Slate Alpha 600": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.04313725605607033,
+          0.0470588244497776,
+          0.05098039284348488
+        ],
+        "alpha": 0.32,
+        "hex": "#0B0C0D"
+      }
+    },
+    "Slate Alpha 700": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.04313725605607033,
+          0.0470588244497776,
+          0.05098039284348488
+        ],
+        "alpha": 0.4,
+        "hex": "#0B0C0D"
+      }
+    },
+    "Slate Alpha 800": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.04313725605607033,
+          0.0470588244497776,
+          0.05098039284348488
+        ],
+        "alpha": 0.48,
+        "hex": "#0B0C0D"
+      }
+    },
+    "Slate Alpha 900": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.04313725605607033,
+          0.0470588244497776,
+          0.05098039284348488
+        ],
+        "alpha": 0.64,
+        "hex": "#0B0C0D"
+      }
+    },
+    "Slate Alpha 1000": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.04313725605607033,
+          0.0470588244497776,
+          0.05098039284348488
+        ],
+        "alpha": 0.72,
+        "hex": "#0B0C0D"
+      }
+    },
+    "Slate Alpha 1100": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.04313725605607033,
+          0.0470588244497776,
+          0.05098039284348488
+        ],
+        "alpha": 0.8,
+        "hex": "#0B0C0D"
+      }
+    },
+    "Slate Alpha 1200": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.04313725605607033,
+          0.0470588244497776,
+          0.05098039284348488
+        ],
+        "alpha": 0.96,
+        "hex": "#0B0C0D"
+      }
+    }
+  },
+  "Clay Alpha": {
+    "Clay Alpha 100": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9803921580314636,
+          0.9686274528503418,
+          0.9607843160629272
+        ],
+        "alpha": 0.04,
+        "hex": "#FAF7F5"
+      }
+    },
+    "Clay Alpha 200": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9803921580314636,
+          0.9686274528503418,
+          0.9607843160629272
+        ],
+        "alpha": 0.08,
+        "hex": "#FAF7F5"
+      }
+    },
+    "Clay Alpha 300": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9803921580314636,
+          0.9686274528503418,
+          0.9607843160629272
+        ],
+        "alpha": 0.12,
+        "hex": "#FAF7F5"
+      }
+    },
+    "Clay Alpha 400": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9803921580314636,
+          0.9686274528503418,
+          0.9607843160629272
+        ],
+        "alpha": 0.16,
+        "hex": "#FAF7F5"
+      }
+    },
+    "Clay Alpha 500": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9803921580314636,
+          0.9686274528503418,
+          0.9607843160629272
+        ],
+        "alpha": 0.24,
+        "hex": "#FAF7F5"
+      }
+    },
+    "Clay Alpha 600": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9803921580314636,
+          0.9686274528503418,
+          0.9607843160629272
+        ],
+        "alpha": 0.32,
+        "hex": "#FAF7F5"
+      }
+    },
+    "Clay Alpha 700": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9803921580314636,
+          0.9686274528503418,
+          0.9607843160629272
+        ],
+        "alpha": 0.4,
+        "hex": "#FAF7F5"
+      }
+    },
+    "Clay Alpha 800": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9803921580314636,
+          0.9686274528503418,
+          0.9607843160629272
+        ],
+        "alpha": 0.48,
+        "hex": "#FAF7F5"
+      }
+    },
+    "Clay Alpha 900": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9803921580314636,
+          0.9686274528503418,
+          0.9607843160629272
+        ],
+        "alpha": 0.64,
+        "hex": "#FAF7F5"
+      }
+    },
+    "Clay Alpha 1000": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9803921580314636,
+          0.9686274528503418,
+          0.9607843160629272
+        ],
+        "alpha": 0.72,
+        "hex": "#FAF7F5"
+      }
+    },
+    "Clay Alpha 1100": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9803921580314636,
+          0.9686274528503418,
+          0.9607843160629272
+        ],
+        "alpha": 0.8,
+        "hex": "#FAF7F5"
+      }
+    },
+    "Clay Alpha 1200": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9803921580314636,
+          0.9686274528503418,
+          0.9607843160629272
+        ],
+        "alpha": 0.96,
+        "hex": "#FAF7F5"
       }
     }
   },
@@ -610,7 +926,7 @@
     }
   },
   "Orange S": {
-    "Orange S 0": {
+    "Orange S 100": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -630,7 +946,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Orange S 25": {
+    "Orange S 200": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -650,7 +966,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Orange S 50": {
+    "Orange S 300": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -670,7 +986,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Orange S 100": {
+    "Orange S 400": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -690,7 +1006,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Orange S 200": {
+    "Orange S 500": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -710,7 +1026,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Orange S 300": {
+    "Orange S 600": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -730,7 +1046,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Orange S 350": {
+    "Orange S 700": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -750,7 +1066,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Orange S 400": {
+    "Orange S 800": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -770,7 +1086,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Orange S 500": {
+    "Orange S 900": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -790,7 +1106,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Orange S 600": {
+    "Orange S 1000": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -810,7 +1126,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Orange S 700": {
+    "Orange S 1100": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -830,7 +1146,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Orange S 800": {
+    "Orange S 1200": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -852,7 +1168,7 @@
     }
   },
   "Yellow S": {
-    "Yellow S 0": {
+    "Yellow S 100": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -872,7 +1188,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Yellow S 25": {
+    "Yellow S 200": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -892,7 +1208,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Yellow S 50": {
+    "Yellow S 300": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -912,7 +1228,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Yellow S 100": {
+    "Yellow S 400": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -932,7 +1248,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Yellow S 200": {
+    "Yellow S 500": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -952,7 +1268,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Yellow S 300": {
+    "Yellow S 600": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -972,7 +1288,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Yellow S 350": {
+    "Yellow S 700": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -992,7 +1308,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Yellow S 400": {
+    "Yellow S 800": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1012,7 +1328,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Yellow S 500": {
+    "Yellow S 900": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1032,7 +1348,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Yellow S 600": {
+    "Yellow S 1000": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1052,7 +1368,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Yellow S 700": {
+    "Yellow S 1100": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1072,7 +1388,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Yellow S 800": {
+    "Yellow S 1200": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1094,7 +1410,7 @@
     }
   },
   "Warm Green S": {
-    "Warm Green S 0": {
+    "Warm Green S 100": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1114,7 +1430,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Warm Green S 25": {
+    "Warm Green S 200": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1134,7 +1450,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Warm Green S 50": {
+    "Warm Green S 300": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1154,7 +1470,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Warm Green S 100": {
+    "Warm Green S 400": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1174,7 +1490,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Warm Green S 200": {
+    "Warm Green S 500": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1194,7 +1510,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Warm Green S 300": {
+    "Warm Green S 600": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1214,7 +1530,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Warm Green S 350": {
+    "Warm Green S 700": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1234,7 +1550,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Warm Green S 400": {
+    "Warm Green S 800": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1254,7 +1570,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Warm Green S 500": {
+    "Warm Green S 900": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1274,7 +1590,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Warm Green S 600": {
+    "Warm Green S 1000": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1294,7 +1610,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Warm Green S 700": {
+    "Warm Green S 1100": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1314,7 +1630,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Warm Green S 800": {
+    "Warm Green S 1200": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1336,7 +1652,7 @@
     }
   },
   "Red S": {
-    "Red S 0": {
+    "Red S 100": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1356,7 +1672,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Red S 25": {
+    "Red S 200": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1376,7 +1692,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Red S 50": {
+    "Red S 300": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1396,7 +1712,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Red S 100": {
+    "Red S 400": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1416,7 +1732,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Red S 200": {
+    "Red S 500": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1436,7 +1752,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Red S 300": {
+    "Red S 600": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1456,7 +1772,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Red S 350": {
+    "Red S 700": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1476,7 +1792,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Red S 400": {
+    "Red S 800": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1496,7 +1812,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Red S 500": {
+    "Red S 900": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1516,7 +1832,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Red S 600": {
+    "Red S 1000": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1536,7 +1852,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Red S 700": {
+    "Red S 1100": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1556,7 +1872,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Red S 800": {
+    "Red S 1200": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1578,7 +1894,7 @@
     }
   },
   "Cool Green S": {
-    "Cool Green S 0": {
+    "Cool Green S 100": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1598,7 +1914,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Cool Green S 25": {
+    "Cool Green S 200": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1618,7 +1934,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Cool Green S 50": {
+    "Cool Green S 300": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1638,7 +1954,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Cool Green S 100": {
+    "Cool Green S 400": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1658,7 +1974,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Cool Green S 200": {
+    "Cool Green S 500": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1678,7 +1994,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Cool Green S 300": {
+    "Cool Green S 600": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1698,7 +2014,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Cool Green S 350": {
+    "Cool Green S 700": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1718,7 +2034,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Cool Green S 400": {
+    "Cool Green S 800": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1738,7 +2054,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Cool Green S 500": {
+    "Cool Green S 900": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1758,7 +2074,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Cool Green S 600": {
+    "Cool Green S 1000": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1778,7 +2094,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Cool Green S 700": {
+    "Cool Green S 1100": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1798,7 +2114,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Cool Green S 800": {
+    "Cool Green S 1200": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1820,7 +2136,7 @@
     }
   },
   "Teal S": {
-    "Teal S 0": {
+    "Teal S 100": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1840,7 +2156,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Teal S 25": {
+    "Teal S 200": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1860,7 +2176,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Teal S 50": {
+    "Teal S 300": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1880,7 +2196,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Teal S 100": {
+    "Teal S 400": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1900,7 +2216,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Teal S 200": {
+    "Teal S 500": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1920,7 +2236,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Teal S 300": {
+    "Teal S 600": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1940,7 +2256,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Teal S 350": {
+    "Teal S 700": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1960,7 +2276,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Teal S 400": {
+    "Teal S 800": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1980,7 +2296,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Teal S 500": {
+    "Teal S 900": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2000,7 +2316,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Teal S 600": {
+    "Teal S 1000": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2020,7 +2336,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Teal S 700": {
+    "Teal S 1100": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2040,7 +2356,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Teal S 800": {
+    "Teal S 1200": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2062,7 +2378,7 @@
     }
   },
   "Blue S": {
-    "Blue S 0": {
+    "Blue S 100": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2082,7 +2398,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Blue S 25": {
+    "Blue S 200": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2102,7 +2418,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Blue S 50": {
+    "Blue S 300": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2122,7 +2438,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Blue S 100": {
+    "Blue S 400": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2142,7 +2458,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Blue S 200": {
+    "Blue S 500": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2162,7 +2478,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Blue S 300": {
+    "Blue S 600": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2182,7 +2498,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Blue S 350": {
+    "Blue S 700": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2202,7 +2518,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Blue S 400": {
+    "Blue S 800": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2222,7 +2538,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Blue S 500": {
+    "Blue S 900": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2242,7 +2558,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Blue S 600": {
+    "Blue S 1000": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2262,7 +2578,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Blue S 700": {
+    "Blue S 1100": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2282,7 +2598,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Blue S 800": {
+    "Blue S 1200": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2304,7 +2620,7 @@
     }
   },
   "Cool Purple S": {
-    "Cool Purple S 0": {
+    "Cool Purple S 100": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2324,7 +2640,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Cool Purple S 25": {
+    "Cool Purple S 200": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2344,7 +2660,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Cool Purple S 50": {
+    "Cool Purple S 300": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2364,7 +2680,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Cool Purple S 100": {
+    "Cool Purple S 400": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2384,7 +2700,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Cool Purple S 200": {
+    "Cool Purple S 500": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2404,7 +2720,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Cool Purple S 300": {
+    "Cool Purple S 600": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2424,7 +2740,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Cool Purple S 350": {
+    "Cool Purple S 700": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2444,7 +2760,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Cool Purple S 400": {
+    "Cool Purple S 800": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2464,7 +2780,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Cool Purple S 500": {
+    "Cool Purple S 900": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2484,7 +2800,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Cool Purple S 600": {
+    "Cool Purple S 1000": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2504,7 +2820,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Cool Purple S 700": {
+    "Cool Purple S 1100": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2524,7 +2840,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Cool Purple S 800": {
+    "Cool Purple S 1200": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2546,7 +2862,7 @@
     }
   },
   "Warm Purple S": {
-    "Warm Purple S 0": {
+    "Warm Purple S 100": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2566,7 +2882,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Warm Purple S 25": {
+    "Warm Purple S 200": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2586,7 +2902,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Warm Purple S 50": {
+    "Warm Purple S 300": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2606,7 +2922,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Warm Purple S 100": {
+    "Warm Purple S 400": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2626,7 +2942,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Warm Purple S 200": {
+    "Warm Purple S 500": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2646,7 +2962,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Warm Purple S 300": {
+    "Warm Purple S 600": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2666,7 +2982,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Warm Purple S 350": {
+    "Warm Purple S 700": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2686,7 +3002,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Warm Purple S 400": {
+    "Warm Purple S 800": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2706,7 +3022,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Warm Purple S 500": {
+    "Warm Purple S 900": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2726,7 +3042,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Warm Purple S 600": {
+    "Warm Purple S 1000": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2746,7 +3062,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Warm Purple S 700": {
+    "Warm Purple S 1100": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2766,7 +3082,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Warm Purple S 800": {
+    "Warm Purple S 1200": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2788,7 +3104,7 @@
     }
   },
   "Magenta S": {
-    "Magenta S 0": {
+    "Magenta S 100": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2808,7 +3124,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Magenta S 25": {
+    "Magenta S 200": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2828,7 +3144,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Magenta S 50": {
+    "Magenta S 300": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2848,7 +3164,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Magenta S 100": {
+    "Magenta S 400": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2868,7 +3184,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Magenta S 200": {
+    "Magenta S 500": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2888,7 +3204,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Magenta S 300": {
+    "Magenta S 600": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2908,7 +3224,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Magenta S 350": {
+    "Magenta S 700": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2928,7 +3244,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Magenta S 400": {
+    "Magenta S 800": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2948,7 +3264,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Magenta S 500": {
+    "Magenta S 900": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2968,7 +3284,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Magenta S 600": {
+    "Magenta S 1000": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2988,7 +3304,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Magenta S 700": {
+    "Magenta S 1100": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3008,7 +3324,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Magenta S 800": {
+    "Magenta S 1200": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3030,7 +3346,7 @@
     }
   },
   "Red M": {
-    "Red M 0": {
+    "Red M 100": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3050,7 +3366,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Red M 25": {
+    "Red M 200": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3070,7 +3386,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Red M 50": {
+    "Red M 300": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3090,7 +3406,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Red M 100": {
+    "Red M 400": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3110,7 +3426,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Red M 200": {
+    "Red M 500": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3130,7 +3446,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Red M 300": {
+    "Red M 600": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3150,7 +3466,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Red M 350": {
+    "Red M 700": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3170,7 +3486,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Red M 400": {
+    "Red M 800": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3190,7 +3506,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Red M 500": {
+    "Red M 900": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3210,7 +3526,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Red M 600": {
+    "Red M 1000": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3230,7 +3546,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Red M 700": {
+    "Red M 1100": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3250,7 +3566,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Red M 800": {
+    "Red M 1200": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3272,7 +3588,7 @@
     }
   },
   "Yellow M": {
-    "Yellow M 0": {
+    "Yellow M 100": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3292,7 +3608,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Yellow M 25": {
+    "Yellow M 200": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3312,7 +3628,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Yellow M 50": {
+    "Yellow M 300": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3332,7 +3648,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Yellow M 100": {
+    "Yellow M 400": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3352,7 +3668,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Yellow M 200": {
+    "Yellow M 500": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3372,7 +3688,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Yellow M 300": {
+    "Yellow M 600": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3392,7 +3708,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Yellow M 350": {
+    "Yellow M 700": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3412,7 +3728,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Yellow M 400": {
+    "Yellow M 800": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3432,7 +3748,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Yellow M 500": {
+    "Yellow M 900": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3452,7 +3768,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Yellow M 600": {
+    "Yellow M 1000": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3472,7 +3788,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Yellow M 700": {
+    "Yellow M 1100": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3492,7 +3808,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Yellow M 800": {
+    "Yellow M 1200": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3514,7 +3830,7 @@
     }
   },
   "Warm Green M": {
-    "Warm Green M 0": {
+    "Warm Green M 100": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3534,7 +3850,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Warm Green M 25": {
+    "Warm Green M 200": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3554,7 +3870,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Warm Green M 50": {
+    "Warm Green M 300": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3574,7 +3890,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Warm Green M 100": {
+    "Warm Green M 400": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3594,7 +3910,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Warm Green M 200": {
+    "Warm Green M 500": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3614,7 +3930,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Warm Green M 300": {
+    "Warm Green M 600": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3634,7 +3950,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Warm Green M 350": {
+    "Warm Green M 700": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3654,7 +3970,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Warm Green M 400": {
+    "Warm Green M 800": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3674,7 +3990,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Warm Green M 500": {
+    "Warm Green M 900": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3694,7 +4010,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Warm Green M 600": {
+    "Warm Green M 1000": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3714,7 +4030,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Warm Green M 700": {
+    "Warm Green M 1100": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3734,7 +4050,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Warm Green M 800": {
+    "Warm Green M 1200": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3756,7 +4072,7 @@
     }
   },
   "Cool Green M": {
-    "Cool Green M 0": {
+    "Cool Green M 100": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3776,7 +4092,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Cool Green M 25": {
+    "Cool Green M 200": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3796,7 +4112,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Cool Green M 50": {
+    "Cool Green M 300": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3816,7 +4132,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Cool Green M 100": {
+    "Cool Green M 400": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3836,7 +4152,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Cool Green M 200": {
+    "Cool Green M 500": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3856,7 +4172,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Cool Green M 300": {
+    "Cool Green M 600": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3876,7 +4192,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Cool Green M 350": {
+    "Cool Green M 700": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3896,7 +4212,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Cool Green M 400": {
+    "Cool Green M 800": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3916,7 +4232,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Cool Green M 500": {
+    "Cool Green M 900": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3936,7 +4252,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Cool Green M 600": {
+    "Cool Green M 1000": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3956,7 +4272,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Cool Green M 700": {
+    "Cool Green M 1100": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3976,7 +4292,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Cool Green M 800": {
+    "Cool Green M 1200": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -3998,7 +4314,7 @@
     }
   },
   "Teal M": {
-    "Teal M 0": {
+    "Teal M 100": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4018,7 +4334,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Teal M 25": {
+    "Teal M 200": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4038,7 +4354,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Teal M 50": {
+    "Teal M 300": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4058,7 +4374,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Teal M 100": {
+    "Teal M 400": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4078,7 +4394,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Teal M 200": {
+    "Teal M 500": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4098,7 +4414,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Teal M 300": {
+    "Teal M 600": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4118,7 +4434,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Teal M 350": {
+    "Teal M 700": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4138,7 +4454,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Teal M 400": {
+    "Teal M 800": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4158,7 +4474,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Teal M 500": {
+    "Teal M 900": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4178,7 +4494,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Teal M 600": {
+    "Teal M 1000": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4198,7 +4514,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Teal M 700": {
+    "Teal M 1100": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4218,7 +4534,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Teal M 800": {
+    "Teal M 1200": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4240,7 +4556,7 @@
     }
   },
   "Blue M": {
-    "Blue M 0": {
+    "Blue M 100": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4260,7 +4576,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Blue M 25": {
+    "Blue M 200": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4280,7 +4596,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Blue M 50": {
+    "Blue M 300": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4300,7 +4616,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Blue M 100": {
+    "Blue M 400": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4320,7 +4636,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Blue M 200": {
+    "Blue M 500": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4340,7 +4656,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Blue M 300": {
+    "Blue M 600": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4360,7 +4676,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Blue M 350": {
+    "Blue M 700": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4380,7 +4696,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Blue M 400": {
+    "Blue M 800": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4400,7 +4716,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Blue M 500": {
+    "Blue M 900": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4420,7 +4736,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Blue M 600": {
+    "Blue M 1000": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4440,7 +4756,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Blue M 700": {
+    "Blue M 1100": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4460,7 +4776,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Blue M 800": {
+    "Blue M 1200": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4482,7 +4798,7 @@
     }
   },
   "Cool Purple M": {
-    "Cool Purple M 0": {
+    "Cool Purple M 100": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4502,7 +4818,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Cool Purple M 25": {
+    "Cool Purple M 200": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4522,7 +4838,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Cool Purple M 50": {
+    "Cool Purple M 300": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4542,7 +4858,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Cool Purple M 100": {
+    "Cool Purple M 400": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4562,7 +4878,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Cool Purple M 200": {
+    "Cool Purple M 500": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4582,7 +4898,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Cool Purple M 300": {
+    "Cool Purple M 600": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4602,7 +4918,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Cool Purple M 350": {
+    "Cool Purple M 700": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4622,7 +4938,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Cool Purple M 400": {
+    "Cool Purple M 800": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4642,7 +4958,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Cool Purple M 500": {
+    "Cool Purple M 900": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4662,7 +4978,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Cool Purple M 600": {
+    "Cool Purple M 1000": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4682,7 +4998,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Cool Purple M 700": {
+    "Cool Purple M 1100": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4702,7 +5018,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Cool Purple M 800": {
+    "Cool Purple M 1200": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4724,7 +5040,7 @@
     }
   },
   "Warm Purple M": {
-    "Warm Purple M 0": {
+    "Warm Purple M 100": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4744,7 +5060,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Warm Purple M 25": {
+    "Warm Purple M 200": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4764,7 +5080,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Warm Purple M 50": {
+    "Warm Purple M 300": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4784,7 +5100,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Warm Purple M 100": {
+    "Warm Purple M 400": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4804,7 +5120,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Warm Purple M 200": {
+    "Warm Purple M 500": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4824,7 +5140,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Warm Purple M 300": {
+    "Warm Purple M 600": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4844,7 +5160,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Warm Purple M 350": {
+    "Warm Purple M 700": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4864,7 +5180,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Warm Purple M 400": {
+    "Warm Purple M 800": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4884,7 +5200,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Warm Purple M 500": {
+    "Warm Purple M 900": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4904,7 +5220,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Warm Purple M 600": {
+    "Warm Purple M 1000": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4924,7 +5240,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Warm Purple M 700": {
+    "Warm Purple M 1100": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4944,7 +5260,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Warm Purple M 800": {
+    "Warm Purple M 1200": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4966,7 +5282,7 @@
     }
   },
   "Magenta M": {
-    "Magenta M 0": {
+    "Magenta M 100": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -4986,7 +5302,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Magenta M 25": {
+    "Magenta M 200": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -5006,7 +5322,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Magenta M 50": {
+    "Magenta M 300": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -5026,7 +5342,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Magenta M 100": {
+    "Magenta M 400": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -5046,7 +5362,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Magenta M 200": {
+    "Magenta M 500": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -5066,7 +5382,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Magenta M 300": {
+    "Magenta M 600": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -5086,7 +5402,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Magenta M 350": {
+    "Magenta M 700": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -5106,7 +5422,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Magenta M 400": {
+    "Magenta M 800": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -5126,7 +5442,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Magenta M 500": {
+    "Magenta M 900": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -5146,7 +5462,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Magenta M 600": {
+    "Magenta M 1000": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -5166,7 +5482,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Magenta M 700": {
+    "Magenta M 1100": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -5186,7 +5502,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Magenta M 800": {
+    "Magenta M 1200": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -5208,7 +5524,7 @@
     }
   },
   "Orange M": {
-    "Orange M 0": {
+    "Orange M 100": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -5228,7 +5544,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Orange M 25": {
+    "Orange M 200": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -5248,7 +5564,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Orange M 50": {
+    "Orange M 300": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -5268,7 +5584,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Orange M 100": {
+    "Orange M 400": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -5288,7 +5604,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Orange M 200": {
+    "Orange M 500": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -5308,7 +5624,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Orange M 300": {
+    "Orange M 600": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -5328,7 +5644,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Orange M 350": {
+    "Orange M 700": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -5348,7 +5664,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Orange M 400": {
+    "Orange M 800": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -5368,7 +5684,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Orange M 500": {
+    "Orange M 900": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -5388,7 +5704,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Orange M 600": {
+    "Orange M 1000": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -5408,7 +5724,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Orange M 700": {
+    "Orange M 1100": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -5428,7 +5744,7 @@
         "com.figma.isOverride": true
       }
     },
-    "Orange M 800": {
+    "Orange M 1200": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
