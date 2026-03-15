@@ -30,10 +30,33 @@ function stepName(key: string, prefix: string): string {
   return key.replace(new RegExp(`^${prefix}-?`), '');
 }
 
+// T-shirt size → numeric space alias
+const TSHIRT_ALIASES: Record<string, string> = {
+  '2xs': '12',
+  'xs': '16',
+  'sm': '32',
+  'md': '48',
+  'lg': '80',
+  'xl': '128',
+  '2xl': '208',
+};
+
+/** True for numeric space keys like "space-16", false for "space-md". */
+function isNumericSpace(key: string): boolean {
+  return /^space-\d+$/.test(key);
+}
+
 export function buildMetrics(): void {
   const mobile = readMetrics('metrics-mobile.tokens.json');
   const tablet = readMetrics('metrics-tablet.tokens.json');
   const desktop = readMetrics('metrics-desktop.tokens.json');
+
+  // Collect numeric space step names for dimension aliases
+  const numericSteps: string[] = [];
+  for (const key of Object.keys(desktop.space)) {
+    if (key.startsWith('$') || !isNumericSpace(key)) continue;
+    numericSteps.push(stepName(key, 'space'));
+  }
 
   // ── Fluid output (clamp-based) ──
   const fluidLines: string[] = [];
@@ -51,15 +74,31 @@ export function buildMetrics(): void {
 
   fluidLines.push('');
 
-  // Spacing
+  // Numeric spacing (fluid values)
   fluidLines.push('  /* Spacing */');
   for (const key of Object.keys(desktop.space)) {
-    if (key.startsWith('$')) continue;
+    if (key.startsWith('$') || !isNumericSpace(key)) continue;
     const step = stepName(key, 'space');
     const mVal = mobile.space[key]?.$value;
     const dVal = desktop.space[key]?.$value;
     if (mVal == null || dVal == null) continue;
     fluidLines.push(`  --mpds-space-${step}: ${fluidValue(mVal, dVal)};`);
+  }
+
+  fluidLines.push('');
+
+  // T-shirt size aliases
+  fluidLines.push('  /* Spacing Aliases */');
+  for (const [tshirt, numeric] of Object.entries(TSHIRT_ALIASES)) {
+    fluidLines.push(`  --mpds-space-${tshirt}: var(--mpds-space-${numeric});`);
+  }
+
+  fluidLines.push('');
+
+  // Dimension aliases
+  fluidLines.push('  /* Dimensions */');
+  for (const step of numericSteps) {
+    fluidLines.push(`  --mpds-dimension-${step}: var(--mpds-space-${step});`);
   }
 
   fluidLines.push('');
@@ -81,7 +120,7 @@ export function buildMetrics(): void {
   writeOutput(resolve(ROOT, 'dist/css/mpds-metrics-fluid.css'), fluidCSS);
 
   // ── Breakpoint output (media queries) ──
-  const breakpoints = [
+  const bpEntries = [
     { data: mobile, query: '@media (max-width: 767px)', label: 'Mobile' },
     {
       data: tablet,
@@ -93,7 +132,7 @@ export function buildMetrics(): void {
 
   const bpBlocks: string[] = [];
 
-  for (const bp of breakpoints) {
+  for (const bp of bpEntries) {
     const lines: string[] = [];
     lines.push(`  /* ${bp.label} */`);
 
@@ -106,12 +145,26 @@ export function buildMetrics(): void {
       );
     }
 
-    // Spacing
+    // Numeric spacing
     for (const key of Object.keys(bp.data.space)) {
-      if (key.startsWith('$')) continue;
+      if (key.startsWith('$') || !isNumericSpace(key)) continue;
       const step = stepName(key, 'space');
       lines.push(
         `    --mpds-space-${step}: ${bp.data.space[key].$value}px;`,
+      );
+    }
+
+    // T-shirt size aliases
+    for (const [tshirt, numeric] of Object.entries(TSHIRT_ALIASES)) {
+      lines.push(
+        `    --mpds-space-${tshirt}: var(--mpds-space-${numeric});`,
+      );
+    }
+
+    // Dimension aliases
+    for (const step of numericSteps) {
+      lines.push(
+        `    --mpds-dimension-${step}: var(--mpds-space-${step});`,
       );
     }
 
