@@ -484,6 +484,7 @@
     }
   },
   "Slate Alpha": {
+    "$base": "slate-1200",
     "Slate Alpha 100": {
       "$type": "color",
       "$value": {
@@ -642,6 +643,7 @@
     }
   },
   "Clay Alpha": {
+    "$base": "clay-100",
     "Clay Alpha 100": {
       "$type": "color",
       "$value": {
