@@ -22,6 +22,7 @@
     "build": "npm run build:tokens && npm run build:icons",
     "build:tokens": "tsx scripts/build-tokens.ts",
     "build:icons": "tsx scripts/build-icons.ts",
+    "prepare": "npm run build",
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
