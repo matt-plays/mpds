@@ -67,21 +67,36 @@ An alternative **breakpoint** file is available using media queries (mobile / ta
 
 ## Icons
 
-Place SVG source files in `icons/svg/`. The build pipeline will:
+MPDS icons are [Central Icons](https://iconists.co/central). Central ships 30 styles (join × fill × radius × stroke) as separate packages, and **each project picks its own style** by installing it under the alias `central-icons`:
 
-1. Optimize SVGs with SVGO → `dist/icons/svg/`
-2. Generate React components → `dist/icons/react/`
+```bash
+npm install central-icons@npm:@central-icons-react/round-outlined-radius-2-stroke-1.5
+```
+
+Then import through MPDS:
 
 ```tsx
-import { ArrowRight } from '@mattplays/mpds/icons';
+import { IconHome, IconArrowRight } from '@mattplays/mpds/icons';
+
+<IconHome size={20} />;
 ```
+
+`@mattplays/mpds/icons` re-exports whatever `central-icons` resolves to in that project, so another project can alias a different style (e.g. `square-filled-radius-0-stroke-2`) and the same imports render in that style. MPDS bundles no icon artwork, and projects that don't use icons don't need to install anything.
+
+Style package naming: `@central-icons-react/{round|square}-{filled|outlined}-radius-{0|1|2|3}-stroke-{1|1.5|2}`. Square styles only come in `radius-0`. Browse icon names at [iconists.co/central](https://iconists.co/central).
+
+### License key
+
+Central's packages check for a license key when installed. Set `CENTRAL_LICENSE_KEY` in your shell for local installs, and as an environment variable on each Vercel project that installs a style package.
+
+> The pre-Central SVG icon set (and `@mattplays/mpds/icons/svg/*`) has been removed. Projects still importing the old names (e.g. `ArrowRight`) need to migrate to the Central names (e.g. `IconArrowRight`) before upgrading.
 
 ## Development
 
 ```bash
-npm run build          # Build tokens + icons
+npm run build          # Build tokens + icon re-export
 npm run build:tokens   # Tokens only
-npm run build:icons    # Icons only
+npm run build:icons    # Icon re-export only
 ```
 
 Source tokens live in `tokens/` (Figma Token Studio exports). Edit in Figma, re-export, then rebuild.
