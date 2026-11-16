@@ -13,10 +13,9 @@
     ".": "./dist/index.css",
     "./css/*": "./dist/css/*",
     "./icons": {
-      "types": "./dist/icons/react/index.d.ts",
-      "import": "./dist/icons/react/index.js"
-    },
-    "./icons/svg/*": "./dist/icons/svg/*"
+      "types": "./dist/icons/index.d.ts",
+      "import": "./dist/icons/index.mjs"
+    }
   },
   "scripts": {
     "build": "npm run build:tokens && npm run build:icons",
@@ -25,11 +24,20 @@
     "prepare": "npm run build",
     "prepublishOnly": "npm run build"
   },
+  "peerDependencies": {
+    "central-icons": "*",
+    "react": ">=16.6.0 <20"
+  },
+  "peerDependenciesMeta": {
+    "central-icons": {
+      "optional": true
+    },
+    "react": {
+      "optional": true
+    }
+  },
   "devDependencies": {
     "tsx": "^4.19.0",
-    "typescript": "^5.6.0",
-    "svgo": "^3.3.0",
-    "@svgr/core": "^8.1.0",
-    "@svgr/plugin-jsx": "^8.1.0"
+    "typescript": "^5.6.0"
   }
 }
