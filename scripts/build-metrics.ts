@@ -39,6 +39,7 @@ const TSHIRT_ALIASES: Record<string, string> = {
   'lg': '80',
   'xl': '128',
   '2xl': '208',
+  '3xl': '336',
 };
 
 /** True for numeric space keys like "space-16", false for "space-md". */
